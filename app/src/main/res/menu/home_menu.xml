@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="PROFILE"
+
+        />
+    <item
+        android:id="@+id/jobportal"
+        android:title="JOBS PORTAL"/>
+    <item
+        android:id="@+id/examportal"
+        android:title="EXAM PORTAL"
+        />
+    <item
+        android:id="@+id/docverification"
+        android:title="DOCUMENT VERIFICATION"/>
+    <item
+        android:id="@+id/settings"
+        android:title="SETTINGS"/>
+
+
+</menu>

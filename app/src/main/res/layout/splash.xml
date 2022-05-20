@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearGroup78"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <FrameLayout android:id="@+id/frameGroup81"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_132pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_54pxh"
+            android:layout_marginStart="@dimen/_54pxh"
+            android:layout_marginTop="@dimen/_306pxv" android:layout_width="@dimen/_295pxh">
+            <ImageView android:id="@+id/imageLogo1"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_132pxh"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_logo1}" tools:src="@drawable/img_logo1"/>
+            <TextView android:id="@+id/txtPORTALFORGOV"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_39pxh"
+                android:layout_marginStart="@dimen/_39pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:text="@{splashScreenVM.splashScreenModel.txtPORTALFORGOV}"
+                style="@style/txtArialRoundedMTBold12" tools:text="@string/msg_portal_for_gov"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
